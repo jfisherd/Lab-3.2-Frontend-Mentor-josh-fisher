@@ -1,49 +1,26 @@
 body {
     display: flex;
     background-color: yellow;
+    color: #111111;
     font-family: "Figtree" , sans-serif;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.main-container {
-    /* align-items: center; */
-    justify-items: center;
-}
 
 .flex-main {
     background-color: white;
-    color: #111111;
     border: 1px solid #111111;
-    vertical-align: middle;
+    box-shadow: 12px 12px #111111;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     width: 336px;
     height: 474px;
-    /* height: 100vh;  */
     padding: 24px;
-    /* margin: 0 auto; */
-    /* justify-content: center; */
-    /* justify-self: auto; */
-    /* margin: auto; */
-
 
 }
-
-/* .shadow {
-    display: block;
-    background-color: #111111;
-    border: 1px solid #111111;
-    border-radius: 20px;
-    height: 474px;
-    width: 336px; 
-    padding: 24px;
-
-} */
-
-
 
 .summary {
     display: flex;
