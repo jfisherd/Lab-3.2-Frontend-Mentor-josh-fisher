@@ -1,8 +1,10 @@
 body {
+    display: flex;
     background-color: yellow;
-    /* font-family: "Figtree-Medium"; */
-    /* font-family: "Arial"; */
     font-family: "Figtree" , sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .main-container {
@@ -14,6 +16,7 @@ body {
     background-color: white;
     color: #111111;
     border: 1px solid #111111;
+    vertical-align: middle;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -21,7 +24,8 @@ body {
     height: 474px;
     /* height: 100vh;  */
     padding: 24px;
-    justify-content: center;
+    /* margin: 0 auto; */
+    /* justify-content: center; */
     /* justify-self: auto; */
     /* margin: auto; */
 
@@ -70,7 +74,7 @@ body {
     margin-bottom: 12px;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .publish-date {
@@ -85,7 +89,7 @@ body {
     margin-bottom: 12px;
     width: 145px;
     height: 21px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .title {
@@ -97,7 +101,7 @@ body {
     width: 336px;
     height: 36px;
     margin-bottom: 12px;   
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .description {
@@ -119,13 +123,13 @@ body {
     height: 32px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .profile-pic {
     width: 32px;
     height: 32px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .profile-name {
@@ -138,7 +142,7 @@ body {
     height: 21px;
     /* margin-right: 0px; */
     /* overflow: visible; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
