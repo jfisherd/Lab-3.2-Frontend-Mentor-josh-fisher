@@ -1,0 +1,99 @@
+body {
+    background-color: yellow;
+}
+
+.main-container {
+    /* align-items: center; */
+    justify-items: center;
+}
+
+
+
+.flex-main {
+    background-color: white;
+    color: #111111;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 474px;
+    /* height: 100vh;  */
+    padding: 24px;
+    justify-content: center;
+    /* justify-self: auto; */
+    /* margin: auto; */
+
+
+}
+
+/* .shadow {
+    display: block;
+    background-color: #111111;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    height: 474px;
+    width: 336px; 
+    padding: 24px;
+
+} */
+
+.summary {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    background-color: yellow;
+    width: 82px;
+    border-radius: 4px;
+}
+
+.description {
+    color: #6b6b6b;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    width: 129px;
+    height: 32px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border: 1px solid red;
+}
+
+.profile-name {
+    width: 85px;
+    height: 21px;
+    margin-right: 0px;
+    border: 1px solid red;
+}
+
+
+/* .attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
