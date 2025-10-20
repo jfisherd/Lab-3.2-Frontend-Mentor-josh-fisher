@@ -2,7 +2,7 @@
     background-color: #D5E1EF;
 }
 
-body {
+.main-container {
     display: flex; /* displays the webpage content in the center of the screen */
     align-items: center;
     justify-content: center;
