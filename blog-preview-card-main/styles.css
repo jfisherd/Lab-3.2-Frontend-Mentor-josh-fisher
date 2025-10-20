@@ -1,8 +1,8 @@
 body {
     display: flex;
-    background-color: yellow;
+    background-color: #F4D04E;
     color: #111111;
-    font-family: "Figtree" , sans-serif;
+    font-family: "Figtree" , sans-serif; /* Figtree font for all text */
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -22,26 +22,26 @@ body {
 
 }
 
-.summary {
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid red; */
-    margin-bottom: 12px;
-}
-
-.blog-logo {
+.logo-container {
     margin-bottom: 12px;
     width: 336px;
     height: 200px;
+}
+
+.blog-logo {
     border-radius: 20px;
-    /* border: 1px solid red; */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
 }
 
 .category {
-    background-color: yellow;
-    /* FIGTREE EXTRA BOLD */
+    background-color: #F4D04E;
     display: flex;
-    font-weight: 800;
+    font-weight: 800; /* FIGTREE EXTRA BOLD */
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -51,34 +51,27 @@ body {
     margin-bottom: 12px;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
 }
 
 .publish-date {
-    /* FIGTREE MEDIUM */
     display: flex;
-    /* align-items: ; */
     justify-content: flex-start;
-    /* inline-size: auto; */
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0px;
     margin-bottom: 12px;
     width: 145px;
     height: 21px;
-    /* border: 1px solid red; */
 }
 
 .title {
-    /* FIGTREE EXTRA BOLD */
-    font-weight: 800;
+    font-weight: 800; /* FIGTREE EXTRA BOLD */
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: 0px;
     width: 336px;
     height: 36px;
     margin-bottom: 12px;   
-    /* border: 1px solid red; */
 }
 
 .description {
@@ -90,7 +83,6 @@ body {
     width: 336px;
     height: 72px;
     margin-bottom: 12px;    
-    /* border: 1px solid red; */
 }
 
 .profile {
@@ -100,28 +92,21 @@ body {
     height: 32px;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 
 .profile-pic {
     width: 32px;
     height: 32px;
-    /* border: 1px solid red; */
 }
 
 .profile-name {
-    /* FIGTREE EXTRA BOLD */
-    font-weight: 800;
+    font-weight: 800; /* FIGTREE EXTRA BOLD */
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0px;
     width: 100px;
     height: 21px;
-    /* margin-right: 0px; */
-    /* overflow: visible; */
-    /* border: 1px solid red; */
 }
-
 
 /* .attribution { 
     font-size: 11px; text-align: center; 
@@ -131,7 +116,49 @@ body {
     color: hsl(228, 45%, 44%); 
 } */
 
+@media (max-width: 600px) {
+    .flex-main {
+        width: 279px;
+        height: 453px;
+    }
 
+    .logo-container {
+        width: 279px;
+        height: 200px;
+        border-radius: 20px;
+        border: 1px solid red;
+        flex-shrink: 0;
+        overflow:hidden;
+    }
+
+    .blog-logo {
+        width: 336px;
+    }
+
+    .category {
+        font-size: 12px;
+        width: 73px;
+        height: 26px;
+    }
+
+    .publish-date {
+        font-size: 12px;
+        width: 130px;
+        height: 18px;
+    }
+
+    .title {
+        font-size: 20px;
+        width: 279px;
+        height: 30px;
+    }
+
+    .description {
+        font-size: 14px;
+        width: 279px;
+        height: 63px;
+    }
+}
 
 
 
