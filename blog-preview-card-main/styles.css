@@ -3,10 +3,12 @@ body {
 }
 
 a {
-    /* all: unset;  */
-    /* reverts default <a> element stylings back to previous specification, no blue or purple underlines */
     color: #111111;
     text-decoration: none;
+}
+
+fieldset {
+    all:unset;
 }
 
 .main-container {
