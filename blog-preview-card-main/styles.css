@@ -76,7 +76,6 @@ body {
 
 .description {
     color: #6b6b6b;
-    /* FIGTREE MEDIUM */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -127,12 +126,15 @@ body {
         height: 200px;
         border-radius: 20px;
         border: 1px solid red;
-        flex-shrink: 0;
         overflow:hidden;
+        justify-content: center;
+        align-items: center;
     }
 
     .blog-logo {
         width: 336px;
+        position: relative;
+        left: -28.5px
     }
 
     .category {
